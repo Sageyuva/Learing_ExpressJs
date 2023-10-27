@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvaraj's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #ff6600;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        header h1 {
+            font-size: 36px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px;
+        }
+        
+        .card h2 {
+            color: #ff6600;
+            font-size: 24px;
+        }
+        
+        .card p {
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        #projects {
+            margin-bottom: 40px;
+        }
+        
+        .project-container {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+        }
+        
+        .project-card {
+            flex: 0 0 auto;
+            width: 300px;
+            scroll-snap-align: center;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .project-card img {
+            height: 200px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        .project-card h3 {
+            color: #ff6600;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        
+        .project-card p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Yuvaraj's Portfolio</h1>
+        <p>Fresh & Talented Web Developer</p>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="card">
+                <h2>About Me</h2>
+                <p>I'm Yuvaraj, a talented web developer with a passion for creating beautiful and functional websites. As a fresher, I'm eager to learn and grow in the field of web development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="card">
+                <h2>Education</h2>
+                <p>Bachelor of Science in Computer Science</p>
+                <p>XYZ University</p>
+                <p>Graduated: May 2022</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="https://static.wixstatic.com/media/5e5a34_cbeebaedae5440a9b08b9c692a4535fb~mv2.jpg/v1/fill/w_924,h_1324,al_c,q_85,enc_auto/5e5a34_cbeebaedae5440a9b08b9c692a4535fb~mv2.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Project description goes here.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://static.wixstatic.com/media/5e5a34_cd5caba5b514499cbc81c7b442974928~mv2.jpg/v1/fill/w_1064,h_608,al_c,q_85,enc_auto/5e5a34_cd5caba5b514499cbc81c7b442974928~mv2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Project description goes here.</p>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="card">
+                <h2>Contact Information</h2>
+                <p>Email: <a href="mailto:yuvarajdhammure@gmail.com">yuvarajdhammure@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
